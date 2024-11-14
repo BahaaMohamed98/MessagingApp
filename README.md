@@ -10,13 +10,11 @@ terminal interface.
 
 - Handles multiple clients concurrently using threads.
 - Broadcasts incoming messages from clients to all other clients.
-- Allows for basic administrative commands like /clear (clear chat), /users (display active users), and /exit (shutdown
-  server).
 - [Administrative commands](#server-commands)
 
 ### Client
 
-- Connects to a server using TCP/IP sockets.
+- Connects to the server using TCP/IP sockets.
 - Displays messages in a simple chat UI, with distinct colors for different users.
 - Non-blocking message input and output.
 - [User commands](#client-commands).
@@ -66,13 +64,13 @@ terminal interface.
 
 ### Server Commands
 
-- **/exit**: Shuts down the server.
-- **/users**: Displays the number of connected clients.
+- `/exit`: Shuts down the server.
+- `/users`: Displays the number of connected clients.
 
 ### Client Commands
 
-- **/exit**: Closes the app.
-- **/clear**: Clears the messages' history.
+- `/exit`: Closes the app.
+- `/clear`: Clears the messages' history.
 
 ## Architecture
 
