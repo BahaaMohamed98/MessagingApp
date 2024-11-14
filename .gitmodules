@@ -1,0 +1,3 @@
+[submodule "include/Terminal++"]
+	path = include/Terminal++
+	url = https://github.com/BahaaMohamed98/TerminalPlusPlus.git
